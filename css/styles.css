@@ -37,6 +37,9 @@ img {
   height: auto;
   object-fit: cover;
 }
+ul {
+  list-style: none;
+}
 
 .container {
   width: 1158px;
@@ -322,6 +325,15 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+.social-media-list {
+  display: flex;
+  gap: 24px;
+}
+
+.socail-media-item {
+  flex-basis: calc((100% - 24px * 3) / 4);
 }
 
 .section-projects {
