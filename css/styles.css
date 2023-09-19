@@ -364,19 +364,22 @@ ul {
   gap: 24px;
 }
 
-.social-link-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: var(--iris);
+.social-link-item {
   width: 40px;
   height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris);
 }
-.social-link-wrapper:hover,
-.social-link-wrapper:focus {
+
+/**
+  |============================
+  | .social-link-list:hover,
+.social-link-list:focus {
   background-color: var(--ocean);
 }
+
+  |============================
+*/
 
 .social-link-icon {
   fill: var(--white);
@@ -410,10 +413,6 @@ ul {
 
 .project-item:hover .overlay-text {
   transform: translateY(0%);
-}
-
-.project-foto {
-  background-color: var(--white);
 }
 
 /**
