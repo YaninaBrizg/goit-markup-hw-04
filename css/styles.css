@@ -128,7 +128,7 @@ ul {
   padding: 24px 0;
 }
 
-.nav-list-item {
+.nav-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -154,7 +154,7 @@ ul {
   background-color: var(--ocean);
 }
 
-.nav-link.current::after {
+.nav-link .current::after {
   background-color: var(--ocean);
 }
 
