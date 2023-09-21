@@ -157,6 +157,7 @@ ul {
   position: relative;
   display: block;
   padding: 24px 0;
+  color: var(--ocean);
 }
 
 .nav-link::after {
